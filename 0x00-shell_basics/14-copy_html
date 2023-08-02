@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name "*.html" -newer ../ -exec sh -c 'cp -u "$@" ../' sh {} +
+cp -u *.htmll ..
